@@ -902,23 +902,13 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 74.93) (xy 121.92 74.93)
+			(xy 125.73 80.01) (xy 125.73 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1cb59588-eca4-4f87-921e-d9aaad287357")
-	)
-	(wire
-		(pts
-			(xy 111.76 80.01) (xy 119.38 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d68e684-e677-4480-841e-9b514183eed4")
+		(uuid "2c9837ff-d994-4709-9cf5-709b222efb76")
 	)
 	(wire
 		(pts
@@ -952,47 +942,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 80.01) (xy 119.38 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75459197-0876-4339-af73-ed7bd06c1d42")
-	)
-	(wire
-		(pts
-			(xy 121.92 80.01) (xy 121.92 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "787efb58-5a51-46e0-a7c7-93e19e46fcd5")
-	)
-	(wire
-		(pts
-			(xy 119.38 77.47) (xy 121.92 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ff25279-4ebd-4804-8ea0-455f0a2de19a")
-	)
-	(wire
-		(pts
-			(xy 115.57 77.47) (xy 115.57 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85b91282-7ec4-4dc3-abf5-2d86a8da7570")
-	)
-	(wire
-		(pts
-			(xy 104.14 87.63) (xy 121.92 87.63)
+			(xy 104.14 87.63) (xy 125.73 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1002,23 +952,111 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 77.47) (xy 115.57 77.47)
+			(xy 101.6 87.63) (xy 104.14 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d574825b-601f-4364-acd3-833848276157")
+		(uuid "d2d0b096-9faf-4a37-8e4c-9b95a9ff8f49")
 	)
 	(wire
 		(pts
-			(xy 115.57 72.39) (xy 121.92 72.39)
+			(xy 115.57 72.39) (xy 125.73 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f46cfe2e-b330-42f6-acba-e9beccc7f7d2")
+	)
+	(global_label "D+"
+		(shape input)
+		(at 125.73 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "119c7f1a-ae5e-4b6b-a231-8e774c848d12")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 119.9024 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D-"
+		(shape input)
+		(at 111.76 80.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4d33ef0c-a0c4-4c5f-a689-5dbb07128f9a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 117.5876 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D+"
+		(shape input)
+		(at 111.76 77.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "914dd6b2-af2a-46a7-9fd3-a9a133e6cfa0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 117.5876 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D-"
+		(shape input)
+		(at 125.73 74.93 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9fac7b58-9a02-464c-bcf4-dc8f69c2b30f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 119.9024 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
@@ -1216,16 +1254,16 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Socket")
-		(at 127 74.93 0)
+		(at 130.81 77.47 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "62e7c405-a7cf-4b5a-a836-be8d36a75b72")
 		(property "Reference" "J2"
-			(at 128.27 74.9299 0)
+			(at 132.08 77.4701 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1234,7 +1272,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04_Socket"
-			(at 128.27 77.4699 0)
+			(at 132.08 74.9301 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1243,7 +1281,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
-			(at 127 74.93 0)
+			(at 130.81 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1252,7 +1290,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 127 74.93 0)
+			(at 130.81 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1261,7 +1299,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 127 74.93 0)
+			(at 130.81 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
