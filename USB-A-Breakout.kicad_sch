@@ -1354,7 +1354,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom-USB-A:USB_A_Vertical"
+		(property "Footprint" "easyeda2kicad:USB-A-TH_AF-ZJB13.7"
 			(at 107.95 78.74 0)
 			(effects
 				(font

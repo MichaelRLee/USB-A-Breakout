@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "Schematic Library")(type "KiCad")(uri "${KIPRJMOD}/random-keyboard-parts.pretty/Schematic Library")(options "")(descr ""))
   (lib (name "Custom-USB-A")(type "KiCad")(uri "${KIPRJMOD}/Custom-USB-A.pretty")(options "")(descr ""))
+  (lib (name "easyeda2kicad")(type "KiCad")(uri "${EASYEDA2KICAD}/easyeda2kicad.pretty")(options "")(descr ""))
 )
